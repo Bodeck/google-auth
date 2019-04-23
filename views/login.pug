@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title='Google-Auth'
+    link(rel="stylesheet", href="/styles.css")
+    link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous")
+  body
+    div.container
+      p This is simple Express.js application, to present authentication using Google Credentials API.
+      p Click button below.
+      div.sign-in-btn
+        a.sign-in-link(href='/auth/google') 
+          i.fab.fa-google
+          |    Sign In with Google
